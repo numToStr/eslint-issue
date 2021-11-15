@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../build/packages/server",
+        "paths": {
+            "@eslint-issue/models": ["../models/index.ts"]
+        }
+    },
+    "references": [{ "path": "../models" }],
+    "include": ["index.ts", "package.json"]
+}

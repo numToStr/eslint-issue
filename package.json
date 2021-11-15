@@ -1,0 +1,27 @@
+{
+  "name": "eslint-issue",
+  "version": "1.0.0",
+  "description": "eslint-issue",
+  "private": true,
+  "engines": {
+    "node": "^16.13.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn workspace @eslint-issue/server dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numToStr/eslint-issue"
+  },
+  "keywords": [],
+  "author": "numToStr <vikasraj1911@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/numToStr/eslint-issue"
+  },
+  "homepage": "https://github.com/numToStr/eslint-issue",
+  "devDependencies": {}
+}
